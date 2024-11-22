@@ -1,8 +1,1 @@
-from .logger import logger
-from . import launcher
-
-
-import os
-
-if not os.path.exists(path="sessions"):
-    os.mkdir(path="sessions")
+__version__ = '1.0'
